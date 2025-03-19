@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "AAkjsGhBqeGgM38l6vYe1Q8HqnfTKn4NFv0zXciKApA=",
+  "Source": "JobApplicationTracker",
+  "BasePath": "_content/JobApplicationTracker",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

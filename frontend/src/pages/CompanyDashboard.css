@@ -1,0 +1,147 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f7f6;
+  margin: 0;
+  padding: 0;
+}
+
+.company-dashboard {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #2c3e50;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #34495e;
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+/* Job Posting Form */
+.job-posting-form {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.job-posting-form input,
+.job-posting-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.job-posting-form button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.job-posting-form button:hover {
+  background-color: #2980b9;
+}
+
+.success-message {
+  color: #27ae60;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Job Applications Section */
+.job-applications {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.application-card {
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border-left: 5px solid #3498db;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.application-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.status {
+  font-weight: bold;
+}
+
+.status.accepted {
+  color: #27ae60;
+}
+
+.status.rejected {
+  color: #e74c3c;
+}
+
+.actions {
+  margin-top: 10px;
+}
+
+.actions button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.accept-btn {
+  background-color: #27ae60;
+  color: white;
+}
+
+.accept-btn:hover {
+  background-color: #219653;
+}
+
+.reject-btn {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.reject-btn:hover {
+  background-color: #c0392b;
+}
+
+/* Loading Spinner */
+.loading-spinner {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  margin: 20px auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
